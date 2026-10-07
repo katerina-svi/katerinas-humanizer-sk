@@ -1,0 +1,31 @@
+name: "Spätná väzba / návrh"
+description: "Nápad na zlepšenie, chýbajúci vzorec, pripomienka k slovenčine alebo všeobecná spätná väzba."
+title: "[Spätná väzba]: "
+labels: ["spätná väzba"]
+body:
+  - type: markdown
+    attributes:
+      value: "Vďaka, že pomáhaš skill zlepšovať! Vyplň, čo dáva zmysel."
+  - type: textarea
+    id: co
+    attributes:
+      label: "O čo ide?"
+      description: "Opíš svoj návrh, postreh alebo chýbajúci vzorec."
+      placeholder: "Napr. skill by mal strážiť aj…"
+    validations:
+      required: true
+  - type: textarea
+    id: priklad
+    attributes:
+      label: "Príklad textu (nepovinné)"
+      description: "Vlož ukážku vstupu a ako by mal vyzerať výstup."
+      render: markdown
+  - type: dropdown
+    id: prostredie
+    attributes:
+      label: "Kde skill používaš?"
+      options:
+        - "Claude (web/aplikácia)"
+        - "ChatGPT"
+        - "Claude Code (plugin)"
+        - "Inde / neviem"

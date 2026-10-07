@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "humanizer-sk",
+  "description": "Odstraňuje zo slovenských textov znaky písania generovaného AI. Prísny režim: len štylistika, žiadna zmena významu, pri sporných miestach sa pýta. Slovenská adaptácia blader/humanizer.",
+  "version": "0.9.0",
+  "author": {
+    "name": "Kateřina Švidrnochová",
+    "url": "https://svidrnochova.cz"
+  },
+  "homepage": "https://github.com/katerina-svi/katerinas-humanizer-sk",
+  "repository": "https://github.com/katerina-svi/katerinas-humanizer-sk",
+  "license": "MIT",
+  "keywords": ["slovencina", "slovak", "writing", "editing", "humanize", "ai-detection", "pravopis", "stylistika"]
+}

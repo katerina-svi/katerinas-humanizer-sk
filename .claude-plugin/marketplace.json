@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "katerinas-humanizer-sk",
+  "owner": {
+    "name": "Kateřina Švidrnochová",
+    "url": "https://svidrnochova.cz"
+  },
+  "description": "Slovenský humanizer: skill na odstránenie AI vzorcov zo slovenských textov, inštalovateľný ako Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "humanizer-sk",
+      "source": "./",
+      "description": "Odstraňuje zo slovenských textov znaky písania AI. Prísny režim: len štylistická redakcia, žiadna zmena významu, pri sporných miestach sa pýta používateľa.",
+      "license": "MIT",
+      "keywords": ["slovencina", "slovak", "writing", "editing", "humanize", "pravopis"]
+    }
+  ]
+}

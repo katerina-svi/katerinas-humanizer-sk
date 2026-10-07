@@ -1,0 +1,36 @@
+name: "Chyba / nezrovnalosť"
+description: "Skill niečo opravil zle, niečo prehliadol alebo zmenil význam textu."
+title: "[Chyba]: "
+labels: ["chyba"]
+body:
+  - type: textarea
+    id: vstup
+    attributes:
+      label: "Vstupný text"
+      description: "Text, ktorý skill dostal."
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: vystup
+    attributes:
+      label: "Čo skill vrátil"
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: ocakavanie
+    attributes:
+      label: "Čo si čakal(a)"
+      description: "Ako mal výstup správne vyzerať a prečo."
+    validations:
+      required: true
+  - type: dropdown
+    id: prostredie
+    attributes:
+      label: "Kde skill bežal?"
+      options:
+        - "Claude (web/aplikácia)"
+        - "ChatGPT"
+        - "Claude Code (plugin)"
+        - "Inde / neviem"
