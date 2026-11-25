@@ -1,5 +1,8 @@
-# Lokální nastavení Claude Code (nepatří do veřejného repa)
+# Lokálne nastavenie Claude Code (nepatrí do verejného repozitára)
 .claude/settings.local.json
 
 # macOS
 .DS_Store
+
+# Python
+__pycache__/

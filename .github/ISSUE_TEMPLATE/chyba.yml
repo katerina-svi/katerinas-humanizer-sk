@@ -22,7 +22,7 @@ body:
     id: ocakavanie
     attributes:
       label: "Čo si čakal(a)"
-      description: "Ako mal výstup správne vyzerať a prečo."
+      description: "Ako mal text po úprave správne vyzerať a prečo."
     validations:
       required: true
   - type: dropdown
@@ -31,6 +31,9 @@ body:
       label: "Kde skill bežal?"
       options:
         - "Claude (web/aplikácia)"
-        - "ChatGPT"
         - "Claude Code (plugin)"
+        - "ChatGPT"
+        - "Gemini"
+        - "Copilot alebo iný chatbot"
+        - "Skills CLI / iný agent"
         - "Inde / neviem"

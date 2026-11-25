@@ -10,9 +10,18 @@
     {
       "name": "humanizer-sk",
       "source": "./",
-      "description": "Odstraňuje zo slovenských textov znaky písania AI. Prísny režim: len štylistická redakcia, žiadna zmena významu, pri sporných miestach sa pýta používateľa.",
+      "description": "Odstraňuje zo slovenských textov znaky písania AI a stráži kalky z angličtiny aj bohemizmy. Prísny režim: len štylistická redakcia, žiadna zmena významu, pri sporných miestach sa pýta používateľa.",
       "license": "MIT",
-      "keywords": ["slovencina", "slovak", "writing", "editing", "humanize", "pravopis"]
+      "keywords": [
+        "slovencina",
+        "slovak",
+        "writing",
+        "editing",
+        "humanize",
+        "pravopis",
+        "kalky",
+        "bohemizmy"
+      ]
     }
   ]
 }
